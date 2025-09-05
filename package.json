@@ -1,0 +1,15 @@
+{
+  "name": "uol-termos-teste",
+  "version": "1.0.0",
+  "description": "Testes automatizados em Cypress e Playwright para validação da última atualização dos termos de uso da UOL.",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "playwright:test": "playwright test",
+    "playwright:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "cypress": "^13.13.1",
+    "@playwright/test": "^1.48.2"
+  }
+}
